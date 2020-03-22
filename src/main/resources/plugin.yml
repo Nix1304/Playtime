@@ -1,0 +1,10 @@
+name: CountTime
+main: ru.nix13.countplaytime.CountPlayTime
+version: 1.0
+author: Nix13
+commands:
+  playtime:
+    description: Show playtime on this server
+    usage: /playtime
+    permission: countplaytime.playtime
+    permission-message: You don't have permission
